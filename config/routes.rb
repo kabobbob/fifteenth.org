@@ -1,5 +1,7 @@
 FifteenthOrg::Application.routes.draw do
-  resources :homes
+  scope ENV['RAILS_RELATIVE_URL_ROOT'] || '/'
+    resources :homes
 
-  root :to => "homes#welcome"
+    root :to => "homes#welcome"
+  end
 end

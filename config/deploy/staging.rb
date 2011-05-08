@@ -15,7 +15,7 @@ after "deploy:update", "config:symlink", "config:bundle"
 
 namespace 'config' do
   task :passenger_stop do
-#    run "cd #{current_path} && passenger stop --pid-file tmp/pids/passenger.pid"
+    run "cd #{current_path} && passenger stop --pid-file tmp/pids/passenger.pid"
   end
 
   task :symlink do
