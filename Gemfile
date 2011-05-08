@@ -9,7 +9,6 @@ gem 'capistrano'
 gem 'capistrano-ext'
 
 group :development, :test do
-  gem 'webrat'
   gem 'ruby-debug19'
 end
 
