@@ -1,0 +1,12 @@
+body {
+  background-image: url("/images/fireworks/bg.jpg");
+}
+
+body, td, th {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+td img {
+  display: block;
+}
