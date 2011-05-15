@@ -62,9 +62,15 @@ GEM
       net-ssh-gateway (>= 1.1.0)
     capistrano-ext (1.2.1)
       capistrano (>= 1.0.0)
+    coffee-script (2.2.0)
+      coffee-script-source
+      execjs
+    coffee-script-source (1.1.0)
     columnize (0.3.2)
     daemon_controller (0.2.6)
     erubis (2.7.0)
+    execjs (0.3.4)
+      multi_json (~> 1.0)
     fastthread (1.0.7)
     highline (1.6.1)
     hike (1.0.0)
@@ -127,6 +133,7 @@ PLATFORMS
 DEPENDENCIES
   capistrano
   capistrano-ext
+  coffee-script
   passenger
   pg
   rails!

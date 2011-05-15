@@ -3,6 +3,6 @@ class MainController < ApplicationController
     render :layout => nil
   end
 
-  def show
+  def about
   end
 end

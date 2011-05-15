@@ -1,0 +1,2 @@
+class PastorController < ApplicationController
+end
